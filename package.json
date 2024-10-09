@@ -1,6 +1,6 @@
 {
-  "name": "react-rollup-storybook-library-starter",
-  "version": "0.0.1",
+  "name": "@carolinadenisse/react-rollup-storybook-library-starter",
+  "version": "0.0.2",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -23,5 +23,11 @@
   "files": [
     "dist"
   ],
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github/carolinadenisse"
+  },
+  "dependencies": {
+    "antd": "^5.21.3"
+  }
 }
